@@ -22,11 +22,11 @@ void Application(){
     double delta = (pow(b,2)) - (4*a*c);
     cout << "delta :" << delta << " , a :" << a << " , b :" << b << " , c :" << c << endl<< endl << endl;
     if (delta < 0) {
-        cout << "Error :: Delta can not be fewer than 0";
+        cout << "Error :: Delta can not be fewer than 0" << endl;
     }
     else if (delta == 0) {
         root1 = ((-b) + sqrt(delta)) / (2 * a);
-        cout << "Two similar answers were found : " << root1;
+        cout << "Two similar answers were found : " << root1 << endl;
     }
     else {
         root1 = ((-b) + sqrt(delta)) / (2 * a);
